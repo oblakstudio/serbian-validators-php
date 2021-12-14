@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php">
+  <testsuites>
+    <testsuite name="validation">
+      <file>tests/mod11.php</file>
+      <file>tests/validate-pib.php</file>
+      <file>tests/validate-jmbg.php</file>
+      <file>tests/validate-mb.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
