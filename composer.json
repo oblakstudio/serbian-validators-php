@@ -18,10 +18,11 @@
     },
     "autoload": {
         "files": [
-          "src/utils.php",
+          "src/serbian-validator-utils.php",
           "src/validate-jmbg.php",
           "src/validate-pib.php",
-          "src/validate-mb.php"
+          "src/validate-mb.php",
+          "src/validate-bank-account.php"
         ]
     }
 }
