@@ -6,7 +6,7 @@ namespace Oblak;
  * Checks if number is valid using check digit 11 function (mod11)
  *
  * @param  int      $number Number to check
- * @return null|number      Check digit if valid, null otherwise
+ * @return number           Check digit
  */
 function mod11($number) {
     $digits = array_reverse(str_split((string) $number));
@@ -23,7 +23,7 @@ function mod11($number) {
             return $remainder;
             break;
         case 1:
-            return null;
+            return 0;
             break;
         default:
             return 11 - $remainder;

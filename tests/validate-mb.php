@@ -8,10 +8,11 @@ use PHPUnit\Framework\TestCase;
 use function Oblak\validateMB;
 
 final class MBValidationTest extends TestCase {
-    public function test_validatePIB() {
+    public function test_validateMB() {
         $this->assertTrue(validateMB(66143627));
         $this->assertFalse(validateMB(66143628));
         $this->assertFalse(validateMB(6614362));
         $this->assertFalse(validateMB(661436200));
+        $this->assertTrue(validateMB(61629190));
     }
 }
