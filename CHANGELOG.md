@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/oblakstudio/serbian-validators-php/compare/v1.1.0...v1.1.1) (2022-01-24)
+
+
+### Bug Fixes
+
+* Fixed MB validation ([68f0061](https://github.com/oblakstudio/serbian-validators-php/commit/68f0061efb4a33ebc4f96c490bd301bdae1840d9))
+
 # [1.1.0](https://github.com/oblakstudio/serbian-validators-php/compare/v1.0.0...v1.1.0) (2022-01-01)
 
 
